@@ -255,7 +255,7 @@ class Honkbot(commands.Cog):
     @commands.command()
     async def sydia(self, ctx):
         """
-        Returns a scathing insult about this particular name.
+        Returns a scathing insult about a particular group relating to the name.
         """
         await ctx.invoke(self.insult, "The Reds organization")
 
