@@ -251,6 +251,13 @@ class Honkbot(commands.Cog):
         Returns a scathing insult about this particular name.
         """
         await ctx.invoke(self.insult, "ranatalus")
+        
+    @commands.command()
+    async def sydia(self, ctx):
+        """
+        Returns a scathing insult about this particular name.
+        """
+        await ctx.invoke(self.insult, "The Reds organization")
 
     @commands.command()
     async def record(self, ctx, *, search: str = None):
